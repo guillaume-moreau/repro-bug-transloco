@@ -1,0 +1,5 @@
+<button (click)="changeLang()">Change lang</button>
+
+<div *transloco="let t; lang: 'es'">
+  {{ t("text") }}
+</div>
